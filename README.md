@@ -26,7 +26,6 @@ A browser-based word game built with Ruby on Rails where users attempt to form v
 git clone https://github.com/sp1aca9fa/rails-longest-word-game.git
 cd rails-longest-word-game
 bundle install
-rails db:create
 rails server
 ```
 
