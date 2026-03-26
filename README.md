@@ -4,36 +4,31 @@ A browser-based word game built with Ruby on Rails where users attempt to form v
 
 ## Features
 
-- Generate a random grid of letters
+- Generate a random grid of 10 letters
 - Submit a word through a form
-- Validate input against:
-  - the available letter grid
-  - an English dictionary API
-- Display results with feedback
+- Display a result page with a "Play again" link
 
 ## Tech Stack
 
 - Ruby on Rails
 - ERB (Embedded Ruby)
 - Bootstrap (for styling)
-- External Dictionary API
 
 ## How It Works
 
-1. A random set of letters is generated on the game page.
+1. A random set of 10 letters is generated on the game page.
 2. The user submits a word using those letters.
-3. The app checks:
-   - if the word can be built from the given letters
-   - if the word exists in the English language (via API)
-4. A result message is displayed based on the validation.
+3. A result page is shown, with the option to play again.
 
 ## Setup
 
-git clone <your-repo-url>
+```
+git clone https://github.com/sp1aca9fa/rails-longest-word-game.git
 cd rails-longest-word-game
 bundle install
 rails db:create
 rails server
+```
 
 Open in your browser: http://localhost:3000/new
 
@@ -41,8 +36,6 @@ Open in your browser: http://localhost:3000/new
 
 - Handling POST requests and form data in Rails
 - Working with params and controller logic
-- Implementing game logic and validation rules
-- Integrating external APIs into a Rails app
 - Managing user flow across multiple views
 
 ## Notes
