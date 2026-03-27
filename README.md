@@ -39,4 +39,4 @@ Open in your browser: http://localhost:3000/new
 
 ## Notes
 
-This project was built to practice Rails fundamentals, including routing, controllers, and dynamic view rendering.
+This project is a solution to a Le Wagon bootcamp coding challenge and it was built to practice Rails fundamentals, including routing, controllers, and dynamic view rendering.
